@@ -1,0 +1,28 @@
+﻿<Window x:Class="Abstract_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="My WPF App" Height="580" Width="525">
+    <Grid>
+        <StackPanel>
+            <Label Content="Fazzynumber Operations"/>
+            <TextBox x:Name="fzNum1Box" Margin="5"/>
+            <TextBox x:Name="fzNum2Box" Margin="5"/>
+            <Button Content="Add" Click="OnFzNumAddClick" Margin="5"/>
+            <Button Content="Subtract" Click="OnFzNumSubtractClick" Margin="5"/>
+            <Button Content="Multiply" Click="OnFzNumMultiplyClick" Margin="5"/>
+            <Button Content="Divide" Click="OnFzNumDivideClick" Margin="5"/>
+            <Label x:Name="fzNumResultLabel" Margin="5"/>
+
+            <Label Content="Complex Operations"/>
+            <TextBox x:Name="complexNum1RealBox" Margin="5"/>
+            <TextBox x:Name="complexNum1ImaginaryBox" Margin="5"/>
+            <TextBox x:Name="complexNum2RealBox" Margin="5"/>
+            <TextBox x:Name="complexNum2ImaginaryBox" Margin="5"/>
+            <Button Content="Add" Click="OnComplexNumAddClick" Margin="5"/>
+            <Button Content="Subtract" Click="OnComplexNumSubtractClick" Margin="5"/>
+            <Button Content="Multiply" Click="OnComplexNumMultiplyClick" Margin="5"/>
+            <Button Content="Divide" Click="OnComplexNumDivideClick" Margin="5"/>
+            <Label x:Name="complexNumResultLabel" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
